@@ -15,4 +15,5 @@ Technique used to decide whether some objects overlap or not between the cirtual
 
 1. Model-based approach
 Take a 3D-model of the real objects directly from existing resources or re-model it using software. This approach is used when the actual encironemnt is easy and completely understood where compete 3D models of real objects can be obtained.
-__Occlusion Handling__
+
+[18]'s Ar image guided surgical system occluded based on the assumption that when a real object can be detected in front of a virtual object, then it is in front of all other virtual objects.
