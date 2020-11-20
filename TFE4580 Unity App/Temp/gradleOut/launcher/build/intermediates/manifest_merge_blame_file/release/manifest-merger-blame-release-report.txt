@@ -155,7 +155,7 @@
 85-->[:unityLibrary] /Users/petrepa/Project/TFE4580/TFE4580 Unity App/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:71:9-73:68
 86            android:name="unity.build-id"
 86-->[:unityLibrary] /Users/petrepa/Project/TFE4580/TFE4580 Unity App/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:72:13-42
-87            android:value="953e641c-d27d-4d66-809c-cd2a27d243cd" />
+87            android:value="84aa4914-b382-43eb-9abc-9634f61784fb" />
 87-->[:unityLibrary] /Users/petrepa/Project/TFE4580/TFE4580 Unity App/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:73:13-65
 88        <meta-data
 88-->[:unityLibrary] /Users/petrepa/Project/TFE4580/TFE4580 Unity App/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:74:9-76:40

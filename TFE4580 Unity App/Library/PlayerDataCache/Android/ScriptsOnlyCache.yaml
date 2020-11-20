@@ -19,12 +19,13 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.AspectRatioFitter
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Finished.unity:
+    Assets/Scenes/Menu Scenes/Finished.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -53,6 +54,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12212}
     - Class: 114
       Script: {instanceID: 12448}
+    - Class: 114
+      Script: {instanceID: 12906}
     - Class: 114
       Script: {instanceID: 13440}
     - Class: 114
@@ -760,5 +763,5 @@ ScriptsOnlyBuild:
     className: ARCoreLoaderSettings
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Finished.unity
+  - Assets/Scenes/Menu Scenes/Finished.unity
   playerPath: /Users/petrepa/Unity/Builds/AROcclusionManager/TFE4580 Unity App/finishedscreen.apk
