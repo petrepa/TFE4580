@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GlobalVariableStorage
     - NeverSleep
+    - OcclusionFeatureManager
     - PlaneVisualization
     - SpawnObjectOnPlane
     - TaskUIManager
@@ -36,6 +38,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.AspectRatioFitter
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -121,6 +124,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 40722}
     - Class: 114
       Script: {instanceID: 78042}
+    - Class: 114
+      Script: {instanceID: 83840}
+    - Class: 114
+      Script: {instanceID: 87062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -144,6 +151,167 @@ ScriptsOnlyBuild:
     - Class: 328
       Script: {instanceID: 0}
     - Class: 329
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu Scenes/Finished.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11816}
+    - Class: 114
+      Script: {instanceID: 12042}
+    - Class: 114
+      Script: {instanceID: 12088}
+    - Class: 114
+      Script: {instanceID: 12354}
+    - Class: 114
+      Script: {instanceID: 12660}
+    - Class: 114
+      Script: {instanceID: 12774}
+    - Class: 114
+      Script: {instanceID: 13288}
+    - Class: 114
+      Script: {instanceID: 13996}
+    - Class: 114
+      Script: {instanceID: 14494}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu Scenes/Info.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11816}
+    - Class: 114
+      Script: {instanceID: 12042}
+    - Class: 114
+      Script: {instanceID: 12088}
+    - Class: 114
+      Script: {instanceID: 12354}
+    - Class: 114
+      Script: {instanceID: 12660}
+    - Class: 114
+      Script: {instanceID: 12774}
+    - Class: 114
+      Script: {instanceID: 13288}
+    - Class: 114
+      Script: {instanceID: 13996}
+    - Class: 114
+      Script: {instanceID: 14494}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu Scenes/Main.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11816}
+    - Class: 114
+      Script: {instanceID: 12042}
+    - Class: 114
+      Script: {instanceID: 12088}
+    - Class: 114
+      Script: {instanceID: 12354}
+    - Class: 114
+      Script: {instanceID: 12660}
+    - Class: 114
+      Script: {instanceID: 12774}
+    - Class: 114
+      Script: {instanceID: 13288}
+    - Class: 114
+      Script: {instanceID: 13996}
+    - Class: 114
+      Script: {instanceID: 14494}
+    - Class: 114
+      Script: {instanceID: 83840}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -872,7 +1040,22 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnObjectOnPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GlobalVariableStorage
+  - hash:
+      serializedVersion: 2
+      Hash: ce1969997ec1dfe7450d65498455d20c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OcclusionFeatureManager
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Menu Scenes/Main.unity
+  - Assets/Scenes/Menu Scenes/Info.unity
   - Assets/Scenes/AREnv.unity
-  playerPath: /Users/petrepa/Unity/Builds/AROcclusionManager/TFE4580 Unity App/VideoTest.apk
+  - Assets/Scenes/Menu Scenes/Finished.unity
+  playerPath: /Users/petrepa/Unity/Builds/AROcclusionManager/TFE4580 Unity App/FirstFullTest.apk

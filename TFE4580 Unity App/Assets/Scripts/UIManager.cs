@@ -17,11 +17,12 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene("Finished");
     }
 
-    public void AREnvScene(){
+    public void AREnvScene(bool OcclusionFeature){
+        GlobalVariableStorage.OcclusionBool = OcclusionFeature;
         SceneManager.LoadScene("AREnv");
+        Debug.Log("GlobalVariableStorage.OcclusionBool: " + GlobalVariableStorage.OcclusionBool);
+        Debug.Log("OcclusionFeature: " + OcclusionFeature);
     }
 
-    public void TogglePlaneVisualizer(bool newValue){
-        Debug.Log("Toggle changed to " + newValue);
-    }
+    
 }
