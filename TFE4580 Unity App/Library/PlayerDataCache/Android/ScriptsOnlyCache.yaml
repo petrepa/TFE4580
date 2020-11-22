@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - NeverSleep
+    - PlaneVisualization
     - TaskUIManager
     - UIManager
     Unity.Rider.Editor.dll:
@@ -13,7 +15,12 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
+    - UnityEngine.XR.ARFoundation.AROcclusionManager
+    - UnityEngine.XR.ARFoundation.ARPlane
+    - UnityEngine.XR.ARFoundation.ARPlaneManager
+    - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
     - UnityEngine.XR.ARFoundation.ARPoseDriver
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
     Unity.XR.Management.Editor.dll:
@@ -45,9 +52,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
@@ -64,9 +81,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12088}
     - Class: 114
+      Script: {instanceID: 12132}
+    - Class: 114
+      Script: {instanceID: 12314}
+    - Class: 114
+      Script: {instanceID: 12592}
+    - Class: 114
       Script: {instanceID: 12660}
     - Class: 114
       Script: {instanceID: 12774}
+    - Class: 114
+      Script: {instanceID: 12926}
     - Class: 114
       Script: {instanceID: 13288}
     - Class: 114
@@ -80,6 +105,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14026}
     - Class: 114
+      Script: {instanceID: 14056}
+    - Class: 114
       Script: {instanceID: 14228}
     - Class: 114
       Script: {instanceID: 14370}
@@ -89,7 +116,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14514}
     - Class: 114
       Script: {instanceID: 24172}
+    - Class: 114
+      Script: {instanceID: 34400}
+    - Class: 114
+      Script: {instanceID: 40722}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -814,10 +847,22 @@ ScriptsOnlyBuild:
     className: ImageWithRoundedCorners
   - hash:
       serializedVersion: 2
-      Hash: a9237cc24f7185ab8245e1e927102a00
+      Hash: 02b304cd5bcc579d5b7f787187b0ad25
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TaskUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaneVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NeverSleep
   platform: 13
   scenePathNames:
   - Assets/Scenes/AREnv.unity

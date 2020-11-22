@@ -20,4 +20,8 @@ public class UIManager : MonoBehaviour
     public void AREnvScene(){
         SceneManager.LoadScene("AREnv");
     }
+
+    public void TogglePlaneVisualizer(bool newValue){
+        Debug.Log("Toggle changed to " + newValue);
+    }
 }

@@ -1,4 +1,4 @@
-#Sun Nov 22 15:45:35 CET 2020
+#Sun Nov 22 21:16:00 CET 2020
 base.0=/Users/petrepa/Project/TFE4580/TFE4580 Unity App/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
