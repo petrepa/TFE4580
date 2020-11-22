@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - NeverSleep
     - PlaneVisualization
+    - SpawnObjectOnPlane
     - TaskUIManager
     - UIManager
     Unity.Rider.Editor.dll:
@@ -64,8 +65,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 104
@@ -120,6 +119,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 34400}
     - Class: 114
       Script: {instanceID: 40722}
+    - Class: 114
+      Script: {instanceID: 78042}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -129,6 +130,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 205
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -863,6 +866,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NeverSleep
+  - hash:
+      serializedVersion: 2
+      Hash: 548521a4ca18ea96ce27ef3ffe0be039
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnObjectOnPlane
   platform: 13
   scenePathNames:
   - Assets/Scenes/AREnv.unity
