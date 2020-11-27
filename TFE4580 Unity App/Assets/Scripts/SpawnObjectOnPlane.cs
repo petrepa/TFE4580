@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(ARRaycastManager))]
 
@@ -10,6 +11,8 @@ public class SpawnObjectOnPlane : MonoBehaviour
 {
     private ARRaycastManager raycastManager;
     private GameObject spawnedObject;
+
+    public RectTransform PlacableUI;
 
     public GameObject PlaceablePrefab;
 
@@ -31,6 +34,10 @@ public class SpawnObjectOnPlane : MonoBehaviour
 
     private void Update() {
         if(!TryGetTouchPosition(out Vector2 touchPosition)){
+            return;
+        }
+        
+        if (EventSystem.current.IsPointerOverGameObject() || EventSystem.current.currentSelectedGameObject != null) {
             return;
         }
 
