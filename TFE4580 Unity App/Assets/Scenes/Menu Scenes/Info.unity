@@ -300,7 +300,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3cee56dceb0bf495c8373d0a23ecec24, type: 3}
-    m_FontSize: 40
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -311,12 +311,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed luctus
-    leo, in egestas orci. Praesent metus massa, gravida nec dui sit amet, hendrerit
-    ultricies diam. Nulla semper ut massa nec porta. Morbi at pulvinar ligula. Aliquam
-    ac laoreet ligula, sed ornare tortor. Nullam quis congue ipsum. Integer et mollis
-    diam, ut congue urna. Nullam dictum pellentesque accumsan. Vestibulum eget eros
-    vitae magna rutrum fringilla.
+  m_Text: 'This app is made to research how different level of occlusion can affect
+    the users quality of experience. By utilizing ARFoundation in combination with
+    ARCore, we are able to occlude the virtual object from the real world.
+
+
+    Environemnt
+    1 has depth mapping, which enables us to do some occlusion giving our objects
+    a more fitting reaction to its environment.
+
+
+    Evironment 2 has no depth mapping,
+    and therefore the system will not be able to do occlusion.'
 --- !u!222 &558008676
 CanvasRenderer:
   m_ObjectHideFlags: 0
