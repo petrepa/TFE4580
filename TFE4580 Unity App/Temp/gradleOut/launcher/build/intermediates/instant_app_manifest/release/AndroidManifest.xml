@@ -85,7 +85,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="f1390fe8-5efc-4df0-8df6-671671f58da0" />
+            android:value="23a8cd19-9a02-4432-bced-fce10a4408a4" />
         <meta-data
             android:name="com.google.ar.core"
             android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->

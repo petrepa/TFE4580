@@ -5,4 +5,5 @@ using UnityEngine;
 public class GlobalVariableStorage : MonoBehaviour
 {
     public static bool OcclusionBool;
+    public static string ParticipantNumberString;
 }
