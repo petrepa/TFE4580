@@ -121,15 +121,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14074}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 14248}
     - Class: 114
-      Script: {instanceID: 14390}
+      Script: {instanceID: 14392}
     - Class: 114
-      Script: {instanceID: 14514}
-    - Class: 114
-      Script: {instanceID: 14534}
+      Script: {instanceID: 14516}
     - Class: 114
       Script: {instanceID: 14536}
+    - Class: 114
+      Script: {instanceID: 14538}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -190,9 +190,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14014}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14290}
     - Class: 114
-      Script: {instanceID: 14514}
+      Script: {instanceID: 14516}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -245,7 +245,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14014}
     - Class: 114
-      Script: {instanceID: 14514}
+      Script: {instanceID: 14516}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -300,9 +300,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14014}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14290}
     - Class: 114
-      Script: {instanceID: 14514}
+      Script: {instanceID: 14516}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -333,7 +333,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16004}
+      Script: {instanceID: 14176}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -919,6 +919,12 @@ ScriptsOnlyBuild:
     className: ARTrackedObject
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartUp
+  - hash:
+      serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
@@ -1085,12 +1091,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StartUp
   platform: 13
   scenePathNames:
   - Assets/Scenes/init.unity
@@ -1098,4 +1098,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu Scenes/Info.unity
   - Assets/Scenes/AREnv.unity
   - Assets/Scenes/Menu Scenes/Finished.unity
-  playerPath: /Users/petrepa/Unity/Builds/AROcclusionManager/TFE4580 Unity App/FirstFullTest.apk
+  playerPath: /Users/petrepa/Unity/Builds/TFE4580 Unity App/TFE4580_petrepa_v1.0.1b.apk
