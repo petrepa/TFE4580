@@ -13,7 +13,7 @@
   <a href="#contributors">Contributors</a>
 </p>
 
-This repository contains the specialization project done by Peter Remøy Paulsen, the fall of 2020, as a part of his masters degree of electronical engineering. 
+This repository contains the specialization project done by Peter Remøy Paulsen, the fall of 2020, as a part of his masters degree in electronical engineering. 
 
 We took a deeper look into realism in AR, and tried to figure out what the level of occlusion has to say for the Quailty of Experience for the user in an augmented reality system. 
 
