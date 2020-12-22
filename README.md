@@ -17,6 +17,8 @@ This repository contains the specialization project done by Peter Remøy Paulsen
 
 We took a deeper look into realism in AR, and tried to figure out what the level of occlusion has to say for the Quailty of Experience for the user in an augmented reality system. 
 
+[Complete report can be found here.](https://github.com/petrepa/TFE4580/blob/master/TFE4580_peterrp_final_report.pdf)
+
 ## Description
 To test if occlusion can have anything to say, we built an augemnted reality app using Unity and ARCore.
 <p align="center">
