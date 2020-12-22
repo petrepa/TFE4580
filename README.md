@@ -31,10 +31,11 @@ In the app the participants exposed of either environment 1 or environment 2
 | Environment 2        | Occlusion algorithm component **disabled**. No dapth data captured. Virtual objects will float above real objects. |
 
 
-In action
+**In action:**
 
-
-
+Environemnt 1          |  Environmnet 2
+:-------------------------:|:-------------------------:
+![](https://github.com/petrepa/TFE4580/blob/master/readmes/media/env_1.gif)  |  ![](https://github.com/petrepa/TFE4580/blob/master/readmes/media/env_2.gif)
 
 ## Installation
 ### Pre-compiled APK
