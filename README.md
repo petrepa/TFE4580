@@ -35,7 +35,7 @@ In the app the participants exposed of either environment 1 or environment 2
 
 Environemnt 1          |  Environmnet 2
 :-------------------------:|:-------------------------:
-![](https://github.com/petrepa/TFE4580/blob/master/readmes/media/env_1.gif)  |  ![](https://github.com/petrepa/TFE4580/blob/master/readmes/media/env_2.gif)
+![](https://github.com/petrepa/TFE4580/blob/master/readmes/media/env_1_compressed.gif)  |  ![](https://github.com/petrepa/TFE4580/blob/master/readmes/media/env_2_compressed.gif)
 
 ## Installation
 ### Pre-compiled APK
