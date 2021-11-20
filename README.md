@@ -20,7 +20,7 @@ We took a deeper look into realism in AR, and tried to figure out what the level
 [Complete report can be found here.](https://github.com/petrepa/TFE4580/blob/master/TFE4580_peterrp_final_report.pdf)
 
 ## Description
-To test if occlusion can have anything to say, we built an augemnted reality app using Unity and ARCore.
+To test if occlusion can have anything to say, we built an augmented reality app using Unity and ARCore.
 <p align="center">
    <img src="https://i.imgur.com/OMncFvb.png" width="600"/>
 </p>
